@@ -9,7 +9,7 @@ Official PyTorch implementation of ECCV 2022 paper **MHR-Net: Multiple-Hypothesi
 * PyTorch 1.7.1
 * torch-batch-svd
 
-Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) to install the library. We also provide a copy of this library which we used in the experiments in ./torch_batch_svd.
+Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) to install the library. We also provide a copy of this library which we used in the experiments in ./_torch-batch-svd.
 
 **************************************************************
 
@@ -26,7 +26,7 @@ The dataset can also be downloaded from [here](https://drive.google.com/file/d/1
 ***************************************************************
 
 ## Training
-
+The general training command is:
 ```
 python train.py -k gt -e [num_epochs] -c [exp_dir] -hp [hparams]
 ```
