@@ -47,6 +47,7 @@ bash ./train_script.sh
 *******************************************************************
 
 # Citation
+If you find our work useful in your research, please cite the paper:
 
 ```
 @inproceedings{MHR_NET,
