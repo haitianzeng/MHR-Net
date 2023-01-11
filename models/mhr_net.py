@@ -4,7 +4,7 @@ from common.function import so3_exponential_map
 from common.camera import *
 from common.function import *
 from common.loss import *
-# from torch_batch_svd import svd
+from torch_batch_svd import svd
 
 
 class MHR_Net(nn.Module):
@@ -233,8 +233,8 @@ class MHR_Net(nn.Module):
         # Aligning shape_j to shape_i using orthogonal Procrustes
         with torch.no_grad():
             svd_mat = torch.bmm(shapes_j.transpose(2, 1), shapes_i)
-            U, s, V = torch.svd(svd_mat)  # can use torch.svd alternatively
-            # U, s, V = svd(svd_mat)
+            # U, s, V = torch.svd(svd_mat)  # can use torch.svd alternatively
+            U, s, V = svd(svd_mat)
             rot = torch.bmm(V, U.transpose(2, 1))
 
         aligned_shapes_j = torch.bmm(rot, shapes_j.transpose(2, 1)).transpose(2, 1)
