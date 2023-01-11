@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: torch-batch-svd
+Version: 1.1.0+9106651
+Summary: A 100x faster PyTorch SVD
+Author: Chengqi Deng
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE
+
+UNKNOWN
+

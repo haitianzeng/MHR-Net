@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 python train.py -k gt -e 50 -c ./checkpoint/run1 -hp projection_type=perspective,w_shape_final=0.2,w_shape_mean=0.8,n_keypoints=17,weight_init_std=0.01,n_fully_connected=1024,n_layers=6,dict_basis_size=10,w_procrust=1.0,procrust_samples=64,align_margin=0.075 --seed 555 --num_workers 0 --resume model_epoch_9.bin
