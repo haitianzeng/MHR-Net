@@ -13,7 +13,7 @@ Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) 
 
 **************************************************************
 
-# Data preparation
+## Data preparation
 We use the data processing from [VideoPose3D](https://github.com/facebookresearch/VideoPose3D). The output .npz files should be placed in a data directory like:
 ```
 ${PROJECT_ROOT}/
@@ -25,7 +25,7 @@ The dataset can also be downloaded from [here](https://drive.google.com/file/d/1
 
 ***************************************************************
 
-# Training
+## Training
 The general training command is:
 ```
 python train.py -k gt -e [num_epochs] -c [exp_dir] -hp [hparams]
@@ -46,7 +46,7 @@ bash ./train_script.sh
 
 *******************************************************************
 
-# Citation
+## Citation
 If you find our work useful in your research, please cite the paper:
 
 ```
@@ -63,7 +63,7 @@ If you find our work useful in your research, please cite the paper:
 
 *******************************************************************
 
-# Acknowledgement
+## Acknowledgement
 Our code is based on the following repositories. We thank the authors for releasing their codes.
 
 - [ITES](https://github.com/sjtuxcx/ITES)
