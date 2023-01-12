@@ -31,7 +31,7 @@ The general training command is:
 python train.py -k gt -e [num_epochs] -c [exp_dir] -hp [hparams]
 ```
 
-We provide the script with the hyper parameters we used in this paper. To achieve a better result, we pre-train the model without procrustean loss for 9 epochs and start full training from the checkpoint. The checkpoint can be downloaded from [here](https://drive.google.com/file/d/1A0mbDJ0bdy0CE1UOkpW20BlmKkfVQ00m/view) and should be put into the checkpoint direction:
+We provide the script with the hyper parameters we used in this paper. To achieve a better result, we pre-train the model without procrustean loss for 9 epochs and start full training from the checkpoint. The checkpoint can be downloaded from [here](https://drive.google.com/file/d/1A0mbDJ0bdy0CE1UOkpW20BlmKkfVQ00m/view) and should be put into the checkpoint directory:
 ```
 ${PROJECT_ROOT}/
 |-- checkpoint
