@@ -25,7 +25,7 @@ The dataset can also be downloaded from [here](https://drive.google.com/file/d/1
 
 ***************************************************************
 
-## Training
+# Training
 The general training command is:
 ```
 python train.py -k gt -e [num_epochs] -c [exp_dir] -hp [hparams]
