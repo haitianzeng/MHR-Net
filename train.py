@@ -449,4 +449,4 @@ for action in test_actions:
     print('{}: MPJPE: {:.2f} P-MPJPE: {:.2f}'.format(action.ljust(12, ' '),
                                                      best_result_errors_3d_valid_p1_action[action] * 1000,
                                                      best_result_errors_3d_valid_p2_action[action] * 1000))
-print('Best overall MPJPE: {:.2f} P-MPJPE: {:.2f}'.format(best_result_p1, best_result_p2))
+print('Best overall MPJPE: {:.2f} P-MPJPE: {:.2f}'.format(best_result_p1 * 1000, best_result_p2 * 1000))
