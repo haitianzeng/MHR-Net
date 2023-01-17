@@ -9,7 +9,7 @@ Official PyTorch implementation of ECCV 2022 paper **MHR-Net: Multiple-Hypothesi
 * PyTorch 1.7.1
 * torch-batch-svd
 
-Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) to install the library. We also provide a copy of this library which we used in the experiments in ./_torch-batch-svd.
+Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) to install the library. We also provide a copy of this library which we used in the experiments in ./torch-batch-svd.zip.
 
 **************************************************************
 
