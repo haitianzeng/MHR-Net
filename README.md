@@ -8,8 +8,21 @@ Official PyTorch implementation of ECCV 2022 paper **MHR-Net: Multiple-Hypothesi
 * Python 3.7
 * PyTorch 1.7.1
 * torch-batch-svd
-
-Please follow [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd) to install the library. We also provide a copy of this library which we used in the experiments in ./torch-batch-svd.zip.
+* opencv
+* scipy
+To setup the environment, we recommend using the following lines to create a new conda env for MHR-Net:
+```
+conda create -n mhr_net python=3.7
+conda activate mhr_net
+pip install torch==1.7.1+cu110 torchvision==0.8.2+cu110 torchaudio==0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+pip install opencv-python
+pip install scipy
+```
+For torch-batch-svd, we use a previous version this library, which can be find in ./torch-batch-svd.zip. Unzip this file and run:
+```
+python setup.py install
+```
+in the library directory to install it.
 
 **************************************************************
 
@@ -69,3 +82,4 @@ Our code is based on the following repositories. We thank the authors for releas
 - [ITES](https://github.com/sjtuxcx/ITES)
 - [C3DPO](https://github.com/facebookresearch/c3dpo_nrsfm)
 - [VideoPose3D](https://github.com/facebookresearch/VideoPose3D)
+- [torch-batch-svd](https://github.com/KinglittleQ/torch-batch-svd)
