@@ -60,23 +60,6 @@ bash ./train_script.sh
 
 *******************************************************************
 
-## Citation
-If you find our work useful in your research, please cite the paper:
-
-```
-@inproceedings{MHR_NET,
-  author    = {Haitian Zeng and
-               Xin Yu and
-               Jiaxu Miao and
-               Yi Yang},
-  title     = {MHR-Net: Multiple-Hypothesis Reconstruction of Non-Rigid Shapes from 2D Views},
-  booktitle = {European Conference on Computer Vision},
-  year      = {2022}
-}
-```
-
-*******************************************************************
-
 ## Acknowledgement
 Our code is based on the following repositories. We thank the authors for releasing their codes.
 
